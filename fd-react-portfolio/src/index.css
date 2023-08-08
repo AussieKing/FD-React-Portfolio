@@ -1,0 +1,21 @@
+/* STEP 1 : resizing fonts */
+
+.html {
+  font-size: 62.5%;
+}
+
+/* changing the font-size of the html element to 62.5% will make it so that 1rem = 10px. This will make it easier to convert px to rem.
+below also changing the default color of the body to dark gray, and the background to cornsilk., and setting the display to block. */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  color: rgb(96, 96, 96);
+  background: cornsilk;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
