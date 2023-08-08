@@ -2,12 +2,17 @@ import './App.scss';  // changed the css to scss (sass preprocessor for css to m
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 
-//! STEp 1: delete the placeholder code, and replace it with the following:
+//! STEP 1: delete the placeholder code, and replace it with the following:
 function App() {
+  //! STEP 2: wrap the Layout component with the Routes component
   return (
     <>
     <Routes>
-      <Route path="/" element={<h1>Home</h1>} />
+      <Route path="/" element={<Layout />} />
+        {/* <Route index path="/about" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} /> */}
     </Routes>
     </>
   );

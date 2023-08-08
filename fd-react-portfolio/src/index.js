@@ -6,8 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 //! STEP 1 : import the BrowserRouter module, and wrap the App component with it
 import { BrowserRouter } from 'react-router-dom';
+import Navigation from './components/Navigation';
 
-//! STEP 2 : wrap the App component with the StrictMode component
+//! STEP 2: import the createRoot method from ReactDOM, and use it to render the App component
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

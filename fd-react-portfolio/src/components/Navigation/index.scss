@@ -1,0 +1,110 @@
+.nav-bar {
+    background: black;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    min-width: 320px;
+
+    .logo-init {
+        display: block;
+        padding: 5px 0 ;
+
+        img {
+            width: 20px;
+            height: auto;
+            margin: 8px auto;
+            display: block;
+
+            &.logo-web3 {
+                width: 30px;
+            }
+        }
+
+    }
+
+    nav {
+        text-align: center;
+        padding: 0 10px;
+        position: absolute;
+        display: block;
+
+        a {
+            font-size: small;
+            color: brown;
+            display: block;
+            position: relative;
+            text-decoration: none;
+        }
+
+        i {
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover {
+            i {
+                transform: scale(1.2);
+                color: chocolate;
+
+                svg {
+                    opacity: 0;
+                }
+            }
+
+        &:after {
+            opacity: 1;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            font-size: 10px;
+            display: block;
+            width: 100%;
+            letter-spacing: normal;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        &:first-child {
+            &::after {
+                content: 'Home';
+            }
+        }
+
+        a.about-link {
+            &::after {
+                content: 'About';
+            }
+        }
+
+        a.portfolio-link {
+            &::after {
+                content: 'Portfolio';
+            }
+        }
+
+        a.contact-link {
+            &::after {
+                content: 'Contact';
+            }
+        }
+
+        a.resume-link {
+            &::after {
+                content: 'Resume';
+            }
+        }
+
+        a.active {
+            color: chocolate;
+            i {
+                transform: scale(1.2);
+            }
+        }
+
+    }
+
+}
+}
