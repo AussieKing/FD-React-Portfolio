@@ -15,3 +15,10 @@ react-router-dom (to navigate through the pages)
 sass (for styling easier and quicker css)
 
 ## Step 2: Global styling
+
+## Step 3:
+Working on the Index.js, need to wrap the App component around the ReactDOM
+
+## Step 4:
+In the App.js, need to import Routes.
+From the Layout folders, import the layout components.
