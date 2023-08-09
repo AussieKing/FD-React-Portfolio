@@ -1,0 +1,25 @@
+.page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.top-tags {
+    bottom: auto;
+    top: 25px;
+}
+
+//TODO: try different styling for the tags to see which one you like best
+.tags {
+    color: brown;
+    opacity: 0.5;
+    bottom: 0;
+    position: absolute;
+    font-size: 25px;
+    left: 160px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bottom-html-tags {
+    margin-left: -10px;
+}

@@ -1,6 +1,7 @@
 import './App.scss';  // changed the css to scss (sass preprocessor for css to make it easier to write css)
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
+import Home from './components/Home';
 
 //! STEP 1: delete the placeholder code, and replace it with the following:
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<Layout />} />
+        <Route index element={<Home />} />
         {/* <Route index path="/about" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
