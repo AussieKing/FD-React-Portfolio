@@ -1,0 +1,45 @@
+.home-page {
+    .text-area {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 90%;
+        width: 40%;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 50px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            animation: rotate 1s linear both;
+            animation-delay: 1.4s;
+            height: auto;
+        }
+    }
+
+    h2 {
+        color: chocolate;
+        font-size: 12px;
+        margin-top: 15px;
+        font-weight: 400;
+        font-family: 'Coolvetica';
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: chocolate;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Coolvetica';
+        
+    }
+}
