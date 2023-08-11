@@ -29,18 +29,20 @@ const About = () => {
             </h1>
             <h2>
               <p>
-                I'm a very ambitious front-end developer looking for a role in an
-                established IT company with the opportunity to work with the latest
-                technologies on challenging and diverse projects.
+                I'm a freshly graduated full stack developer looking for an exciting career change, and for an 
+                opportunity to work with the latest
+                technologies, including React, Node.js, and MongoDB or any Blockchain related projects.
               </p>
               <p align="LEFT">
-                  I'm quiet confident, naturally curious, and perpetually working on
-                  improving my chops one design problem at a time.
+                  I'm naturally extrovert, always curious, and constantly teaching myself a new skill, 
+                  reading a new book, or outdoor exercising. 
+                  Oh, and coding of course!
               </p>
               <p>
-                If I need to define myself in one sentence that would be a family
-                person, father of a beautiful daughter, a sports fanatic,
-                photography enthusiast, and tech-obsessed!!!
+                My family is my biggest motivation, and I'm always looking for ways to improve myself and
+                my skills to provide them with a better life.
+                I love cooking (sounds cliche, but I do!), and I'm always looking for new recipes to try.
+                When I'm not coding, you'll find me outdoor exercising, taking photos, or playing with my son.
               </p>
             </h2>
         </div>
