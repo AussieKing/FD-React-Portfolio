@@ -1,27 +1,26 @@
 .nav-bar {
-    background: #feb46f;
-    width: 80px;
+    background: #262626;
+    width: 60px;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
+    opacity: 0.9;
 
-  .logo-init {
-    display: block;
-    padding: 5px 0;
+    // .logo {
+    //     display: inline-block;
+    //     padding: 9px 0;
+    //     width: auto;
+    // }
 
-    img {
-        display: block;
-        margin: 8px auto;
-        width: 24px;
-        height: auto;
-
-      &.logo-web3 {
-        width: 5px;
-      }
-    }
-  }
+  //   img {
+  //       display: block;
+  //       width: 79px;
+  //       height: auto;
+  //       margin: 0 auto;
+  //   }
+  // }
 
   nav {
     height: 210px;
@@ -33,13 +32,17 @@
     width: 100%;
 
     a {
-      font-size: 17px;
-      color: brown;
+      font-size: 18px;
+      color: rgb(255, 255, 0);
       display: block;
       position: relative;
       text-decoration: none;
-      height: 30px;
-      line-height: 31px;
+      height: 50px;
+      line-height: 51px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      overflow: visible;
     }
 
     i {
@@ -49,7 +52,8 @@
     &:hover {
       i {
         transform: scale(1.2);
-        color: chocolate;
+        color: orange;
+        overflow: visible;
 
         svg {
           opacity: 0;
@@ -75,25 +79,25 @@
 
       &:first-child {
         &::after {
-          content: 'Home';
+          content: ' Home';
         }
       }
 
       a.about-link {
         &::after {
-          content: 'About';
+          content: ' About';
         }
       }
 
       a.portfolio-link {
         &::after {
-          content: 'Portfolio';
+          content: ' Portfolio';
         }
       }
 
       a.contact-link {
         &::after {
-          content: 'Contact';
+          content: ' Contact';
         }
       }
 
@@ -110,29 +114,27 @@
         }
       }
     }
+  }
 
-    ul {
-      bottom: 20px;
-      position: absolute;
-      width: 100%;
-      display: block;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      list-style: none;
+  ul {
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    font-size: x-large;
+  }
 
-      li {
-        a {
-          display: block;
-          line-height: normal;
-          padding: 6px 0;
-          font-size: small;
-
-          &:hover svg {
-            color: chocolate;
-          }
-        }
-      }
-    }
+  .hamburger-icon{
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-size: large;
   }
 }
