@@ -15,7 +15,7 @@ const Home = () => {
     
     useEffect(() => {  // use the useEffect hook to set the timeout
         return setTimeout(() => {
-            setLetterClass('text-animate done')  // set the state to the class name with the animation
+            setLetterClass('text-animate hover')  // set the state to the class name with the animation
         }, 4000)
     }, [])  // pass an empty array as the second argument to the useEffect hook, so that it only runs once
 
