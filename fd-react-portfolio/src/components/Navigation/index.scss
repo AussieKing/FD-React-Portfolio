@@ -1,29 +1,16 @@
 .nav-bar {
-    background: #262626;
-    width: 60px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    min-height: 500px;
-    opacity: 0.9;
+  background: #262626;
+  width: 60px;
+  height: 140%;
+  position: fixed;
+  left: 0;
+  z-index: 3;
+  min-height: 700px;
+  opacity: 0.9;
+}
 
-    // .logo {
-    //     display: inline-block;
-    //     padding: 9px 0;
-    //     width: auto;
-    // }
-
-  //   img {
-  //       display: block;
-  //       width: 79px;
-  //       height: auto;
-  //       margin: 0 auto;
-  //   }
-  // }
-
-  nav {
-    height: 210px;
+nav {
+  height: 210px;
     top: 50%;
     margin-top: -120px;
     display: block;
@@ -31,7 +18,7 @@
     position: absolute;
     width: 100%;
 
-    a {
+  a {
       font-size: 18px;
       color: #ffbf00;
       display: block;
@@ -45,99 +32,88 @@
       overflow: visible;
     }
 
+  i {
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
     i {
+      transform: scale(1.2);
+      color: orange;
+      overflow: visible;
+      svg {
+        opacity: 0;
+      }
+    }
+
+    &:after {
+      opacity: 1;
+    }
+
+    &:after {
+      content: '';
+      font-size: 10px;
+      opacity: 0;
       transition: all 0.3s ease-in-out;
     }
 
-    &:hover {
+    &:first-child {
+      &::after {
+        content: ' Home';
+      }
+    }
+
+    a.about-link {
+      &::after {
+        content: ' About Me';
+      }
+    }
+
+    a.portfolio-link {
+      &::after {
+        content: ' Portfolio';
+      }
+    }
+
+    a.contact-link {
+      &::after {
+        content: ' Contact';
+      }
+    }
+
+    a.resume-link {
+      &::after {
+        content: 'Resume';
+      }
+    }
+
+    a.active {
+      color: chocolate;
       i {
         transform: scale(1.2);
-        color: orange;
-        overflow: visible;
-
-        svg {
-          opacity: 0;
-        }
-      }
-
-      &:after {
-        opacity: 1;
-      }
-
-      &:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        font-size: 10px;
-        display: block;
-        width: 100%;
-        letter-spacing: normal;
-        opacity: 0;
-        transition: all 0.3s ease-in-out;
-        text-align: center;
-        // we want to disable default styling here
-        
-
-      }
-
-      &:first-child {
-        &::after {
-          content: ' Home';
-        }
-      }
-
-      a.about-link {
-        &::after {
-          content: ' About';
-        }
-      }
-
-      a.portfolio-link {
-        &::after {
-          content: ' Portfolio';
-        }
-      }
-
-      a.contact-link {
-        &::after {
-          content: ' Contact';
-        }
-      }
-
-      a.resume-link {
-        &::after {
-          content: 'Resume';
-        }
-      }
-
-      a.active {
-        color: chocolate;
-        i {
-          transform: scale(1.2);
-        }
       }
     }
   }
+}
 
-  ul {
-    bottom: 20px;
-    position: absolute;
-    width: 100%;
-    display: block;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    list-style: none;
-    font-size: x-large;
-  }
+ul {
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+  font-size: x-large;
+}
 
-  .hamburger-icon{
-    display: block;
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-    padding: 0;
-    font-size: large;
-  }
+.hamburger-icon {
+  display: block;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  font-size: large;
 }

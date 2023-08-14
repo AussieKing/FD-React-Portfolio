@@ -4,22 +4,19 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 
 //! STEP 1: delete the placeholder code, and replace it with the following:
 function App() {
   //! STEP 2: wrap the Layout component with the Routes component
   return (   // import the single Routes and wrap them Routes component
     <>
+    <Header />
     <Routes>
       <Route path="/" element={<Layout />} />
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
-        {/* <Route index path="/about" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} /> */}
     </Routes>
     </>
   );

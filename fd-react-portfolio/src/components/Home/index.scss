@@ -43,9 +43,13 @@
         margin-bottom: 20px;
         animation: fadeInAnimation 1s 2.2s backwards;
     }
-}
 
-.container-home.text-area{
+    .contact-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; // Adjust this margin as needed
+      }
+
     .flat-button {
         color: goldenrod;
         font-size: 12px;
@@ -58,7 +62,7 @@
         float: right;
         animation: fadeInAnimation 1s 1.8s backwards;
         white-space: nowrap;
-    
+        
         &:hover {
           background: orange;
           color: gold;

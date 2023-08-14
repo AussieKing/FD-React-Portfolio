@@ -1,0 +1,48 @@
+.bg-dark {
+  padding: 0;
+}
+
+.text-white {
+  color: white;
+}
+
+.fa-code {
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.fa-code:hover {
+  color: goldenrod;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* Additional styling for the link */
+.text-white:hover {
+  color: goldenrod;
+}
+
+/* Additional styling for the header title */
+h1 {
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center the header title */
+.container {
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+  

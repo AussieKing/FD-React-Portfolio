@@ -1,0 +1,43 @@
+//! FOOTER
+
+.footer {
+    background-color: #343a40;
+    padding: 0; 
+    text-align: center;
+  }
+  
+  .social-icons-wrapper {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    font: Sans-Serif;
+  }
+  
+  .icon:hover {
+    color: goldenrod;
+  }
+  
+  .name {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .designer-text {
+    color: wheat;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Additional styling for copyright text */
+  .copyright-text {
+    color: white;
+    font-size: 12px;
+  }
+  
