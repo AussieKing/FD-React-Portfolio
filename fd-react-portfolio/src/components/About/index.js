@@ -1,7 +1,7 @@
 import './index.scss';
 import { useEffect, useState } from 'react';
 import Navigation from '../Navigation';
-// import Loader from 'react-loaders'
+import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
@@ -46,6 +46,7 @@ const About = () => {
               </p>
             </h2>
         </div>
+        <Loader type="pacman" />
     </div>
     );
 };

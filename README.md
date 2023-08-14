@@ -41,6 +41,10 @@ In each of these folders, create index.scss and index.js in each of these folder
 Using React capabilities to call upon a component numerous times, create the animation for the letters.
 
 ## Step 7:
+Pacman loaders
+
+## Step 8:
+Contact component
 
 
 

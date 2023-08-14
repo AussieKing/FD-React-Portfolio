@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Navigation from '../Navigation';
+import Loader from 'react-loaders';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')  // use the useState hook to set the state
@@ -19,8 +20,10 @@ const Home = () => {
     }, [])  // pass an empty array as the second argument to the useEffect hook, so that it only runs once
 
     return (
+        <>
         <div className="container-home">
             <div classname='text-area'>
+                <p>
                 <img src={Logo} alt='dev name' />
                 <h1>
                 <Navigation />
@@ -35,8 +38,11 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={available} index={4} />  {/* pass the props to the component */}
                 </h2>
                 <Link to='/contact' classname='flat-button'>Contact Me</Link>
+                </p>
             </div>
         </div>
+        <Loader type="pacman" />;
+        </>
     )
 }
 
