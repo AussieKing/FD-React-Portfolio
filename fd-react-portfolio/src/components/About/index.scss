@@ -1,26 +1,67 @@
 //! ABOUTME
 
-.text-area {
-  position: absolute;
-  left: 90px;
-  top: 50%;
-  transform: translateY(-50%);
-  max-height: 90%;
-  width: 40%;
-  color: wheat;
+// .text-area {
+//   position: absolute;
+//   left: 90px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   max-height: 90%;
+//   width: 40%;
+//   color: wheat;
 
-  .text-animate {
-    position: relative;
-    top: 0;
-    left: 100px;
-    opacity: 0;
-    font-family: 'La Belle Aurore';
+//   .text-animate {
+//     position: relative;
+//     top: 0;
+//     left: 100px;
+//     opacity: 0;
+//     font-family: 'La Belle Aurore';
 
-  }
-}
+//   }
+// }
+
+// .about-page {
+//   position: relative; /* Set a relative position for the page */
+// }
+
+// .text-area {
+//   position: relative;
+//   max-height: 90%;
+//   width: 60%;
+//   color: wheat;
+
+//   .text-animate {
+//     position: relative;
+//     top: 0;
+//     left: 100px;
+//     opacity: 0;
+//     font-family: 'La Belle Aurore';
+//   }
+// }
+
+// .h2-container {
+//   margin-top: 20px; 
+// }
+
+// .image-container {
+//   position: absolute;
+//   top: 50%; 
+//   right: 0; 
+//   transform: translateY(-50%); 
+//   display: flex;
+//   justify-content: flex-end;
+//   align-items: flex-start;
+//   height: 100%;
+//   padding: 0;
+// }
+
+// .about-image {
+//   height: 100%;
+//   width: auto;
+//   object-fit: contain;
+// }
 
 .about-page {
-  position: relative; /* Set a relative position for the page */
+  position: relative; 
 }
 
 .text-area {
@@ -32,9 +73,11 @@
   .text-animate {
     position: relative;
     top: 0;
-    left: 100px;
+    left: 0;
     opacity: 0;
     font-family: 'La Belle Aurore';
+    transform: translateX(-100%); /* Add this line */
+    transition: opacity 0.5s, transform 0.5s; /* Add transition properties */
   }
 }
 
