@@ -1,10 +1,12 @@
-import './App.scss';  // changed the css to scss (sass preprocessor for css to make it easier to write css)
 import { Route, Routes } from 'react-router-dom';  // import the Route and Routes components from react-router-dom
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import './App.scss';  // changed the css to scss (sass preprocessor for css to make it easier to write css)
+
 
 //! STEP 1: delete the placeholder code, and replace it with the following:
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="portfolio" element={<Portfolio />} />
     </Routes>
     </>
   );
