@@ -13,7 +13,6 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')  // setting the initial state to be the class that animates the letters
     const form = useRef()
 
-  //! ERROR: it moves the title as it updates it after 3 seconds, so taking this out.
     useEffect(() => {
       return setTimeout(() => {
         setLetterClass('text-animate-hover')

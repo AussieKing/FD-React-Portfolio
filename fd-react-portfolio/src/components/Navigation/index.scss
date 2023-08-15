@@ -3,16 +3,16 @@
 .nav-bar {
   background: #262626;
   width: 60px;
-  height: 100%; /* Adjust height as needed */
+  height: 100%; 
   position: fixed;
   left: 0;
-  top: 0; /* Position it at the top of the page */
+  top: 0; 
   z-index: 3;
   opacity: 0.9;
   display: flex;
-  flex-direction: column; /* Make it a vertical column */
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 nav {
@@ -102,12 +102,12 @@ nav {
   }
 }
 
-.hamburger-icon {
-  display: block;
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  text-align: center;
-  padding: 0;
-  font-size: large;
-}
+// .hamburger-icon {
+//   display: block;
+//   position: absolute;
+//   top: 20px;
+//   width: 100%;
+//   text-align: center;
+//   padding: 0;
+//   font-size: large;
+// }

@@ -23,7 +23,7 @@ const About = () => {
 
       <Container>
         <Row>
-          <Col md={9}>
+          <Col md={9} xs={12}>
             <div className="text-area">
               <h1>
                 <AnimatedLetters

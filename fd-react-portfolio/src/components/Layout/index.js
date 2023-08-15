@@ -19,7 +19,6 @@ const Layout = () => {
         <span className="tags bottom-tags">&lt;/body&gt;</span>
         <br />
         <span className="tags bottom-html-tags">&lt;/html&gt;</span>
-        {/*the above are html tags */}
       </div> 
     </div>
 

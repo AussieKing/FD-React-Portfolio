@@ -57,7 +57,7 @@ const Portfolio = () => {
         'This Heroku deployed app allows the user to write and save notes, using Express.js back end and will save and retrieve note data from a JSON file.',
       imageUrl: require('../../assets/images/note-taker.png'),
       projectUrl: 'https://github.com/AussieKing/Note-Taker-aka-ADHD-Savior',
-      appUrl: "https://salty-woodland-83336.herokuapp.com/",
+      appUrl: "https://salty-woodland-83336.herokuapp.com/"
     },
   ])
 

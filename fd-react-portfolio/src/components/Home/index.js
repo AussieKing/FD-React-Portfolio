@@ -30,8 +30,6 @@ const Home = () => {
                 <img src={Logo} alt='dev name' />
                 <h1>
                 <Navigation />
-                {/* <img src={Logo} alt='dev name' />
-                <div className="text-area"> */}
                 <AnimatedLetters letterClass={letterClass} strArray={strArray1} index={1} />  {/* pass the props to the component */}
                 <br />
                 </h1>
@@ -42,7 +40,6 @@ const Home = () => {
                 <h2>
                 <AnimatedLetters letterClass={letterClass} strArray={available} index={4} />  {/* pass the props to the component */}
                 <br />
-                {/* <Link to='/contact' classname='flat-button'>Contact Me</Link> */}
                 </h2>
                 <Link to='/contact' className='flat-button'>Contact Me</Link>
                 </p>

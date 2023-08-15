@@ -6,13 +6,12 @@ import Navigation from '../Navigation'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import Footer from '../Footer'
 
 const Resume = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -39,16 +38,6 @@ const Resume = () => {
                     <AnimatedLetters
                       letterClass={letterClass}
                       strArray={[
-                        'T',
-                        'e',
-                        'c',
-                        'h',
-                        'n',
-                        'i',
-                        'c',
-                        'a',
-                        'l',
-                        ' ',
                         'S',
                         'k',
                         'i',

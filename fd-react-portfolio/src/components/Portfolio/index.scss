@@ -1,39 +1,38 @@
 //! PORTFOLIO
 
 .portfolio-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .portfolio-header {
-    padding-left: 100px;
-    padding-right: 70px;
-    width: calc(100% - 150px);
-    margin-top: 20px; /* Adjust margin-top */
-  }
-  
-  .page-title {
-    /* Your title styles */
-    position: relative;
-    text-align: center; /* Center the text */
-    color: wheat;
-    font-size: 60px;
-    top: 50%; /* Keep the top value consistent */
-    transform: translateY(-50%); /* Use translateY to vertically center */
-    font-family: 'La Belle Aurore'; /* Apply the same font as the animation */
-  }
-  
-  .portfolio-projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    width: 100%;
-    margin-top: 10px; /* Adjust margin-top */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto; 
+}
+
+.portfolio-header {
+  padding-left: 100px;
+  padding-right: 70px;
+  width: calc(100% - 150px);
+  margin-top: 20px; 
+}
+
+.page-title {
+  position: relative;
+  text-align: center; 
+  color: wheat;
+  font-size: 60px;
+  top: 50px;
+  transform: translateY(-50%); 
+  font-family: 'La Belle Aurore'; 
+}
+
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 10px; 
+}
   
   .project-box {
     flex: 0 0 calc(33.33% - 80px);
@@ -70,7 +69,7 @@
       margin-bottom: 0;
       margin-top: 0;
       color: #fff;
-      font-size: 18px; /* Adjust as needed */
+      font-size: 18px;
       font-weight: 500;
       line-height: 24px;
     }
@@ -85,8 +84,8 @@
     .btn {
       margin-top: 20px;
       padding: 0 23px;
-      height: 32px; /* Adjust as needed */
-      line-height: 28px; /* Adjust as needed */
+      height: 32px; 
+      line-height: 28px; 
       border: 2px solid #ffd700;
       border-radius: 4px;
       font-size: 14px;

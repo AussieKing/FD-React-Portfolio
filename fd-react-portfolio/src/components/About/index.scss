@@ -16,8 +16,8 @@
     left: 0;
     opacity: 0;
     font-family: 'La Belle Aurore';
-    transform: translateX(-100%); /* Add this line */
-    transition: opacity 0.5s, transform 0.5s; /* Add transition properties */
+    transform: translateX(-100%); 
+    transition: opacity 0.5s, transform 0.5s; 
   }
 }
 
@@ -27,8 +27,8 @@
 
 .image-container {
   position: absolute;
-  top: 50%; 
-  right: 0; 
+  top: 70%; 
+  right: 10%; 
   transform: translateY(-50%); 
   display: flex;
   justify-content: flex-end;
@@ -38,7 +38,7 @@
 }
 
 .about-image {
-  height: 100%;
+  height: 50%;
   width: auto;
   object-fit: contain;
 }
