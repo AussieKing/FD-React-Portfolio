@@ -41,7 +41,8 @@ const About = () => {
                   </p>
                   <p align="LEFT">
                     I'm naturally extrovert, always curious, and constantly teaching myself a new skill, reading a new
-                    book, or outdoor exercising. Oh, and coding of course!
+                    book, or outdoor exercising. Oh, and coding of course! 
+                    I love reading self-development books, trading charts (forex and crypto), and explore new technologies
                   </p>
                   <p>
                     My family is my biggest motivation, and I'm always looking for ways to improve myself and my skills

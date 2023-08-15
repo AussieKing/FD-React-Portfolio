@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 import './App.scss';  // changed the css to scss (sass preprocessor for css to make it easier to write css)
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="portfolio" element={<Portfolio />} />
+      <Route path="resume" element={<Resume />} />
     </Routes>
     </>
   );

@@ -1,0 +1,87 @@
+.resume-section h1 {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+  }
+  
+  .resume-margin {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  
+  .text-area {
+    .space {
+      margin-top: 50px;
+    }
+  }
+  
+  .gold-color {
+    color: chocolate; 
+  }
+  
+  .download-resume {
+    color: goldenrod;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 90px;
+    font-family: 'Coolvetica';
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid chocolate;
+    margin-top: 10px;
+    display: block;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+  
+    &:hover {
+      background: orange;
+      color: gold;
+    }
+  }
+  
+  .about-page {
+    position: relative;
+  }
+  
+  .section {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .star-secondary {
+    border: 0;
+    border-top: 1px solid #bf9b30;
+  }
+  
+  .star-primary {
+    border: 0;
+    border-top: 1px solid #ffd700;
+  }
+  
+  .download-resume {
+    margin-top: 20px;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .resume-item {
+    margin-top: 20px;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  
+    .row {
+      margin: 0 -15px;
+  
+      .col {
+        padding: 0 15px;
+      }
+    }
+  }
+  
