@@ -1,3 +1,5 @@
+//! HOME
+
 import { useEffect, useState } from 'react'
 import Logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
@@ -23,7 +25,7 @@ const Home = () => {
     return (
         <>
         <div className="container-home">
-            <div classname='text-area'>
+            <div className='text-area'>
                 <p>
                 <img src={Logo} alt='dev name' />
                 <h1>
@@ -42,7 +44,7 @@ const Home = () => {
                 <br />
                 {/* <Link to='/contact' classname='flat-button'>Contact Me</Link> */}
                 </h2>
-                <Link to='/contact' classname='flat-button'>Contact Me</Link>
+                <Link to='/contact' className='flat-button'>Contact Me</Link>
                 </p>
             </div>
             <Footer />

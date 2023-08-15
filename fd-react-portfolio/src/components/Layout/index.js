@@ -1,3 +1,5 @@
+//! LAYOUT
+
 // this is the file for all of our components to be exported from
 //! STEP 1: import the Navbar component
 import { Outlet } from 'react-router-dom';

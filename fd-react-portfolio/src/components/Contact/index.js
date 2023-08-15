@@ -1,4 +1,5 @@
-// CONTACT PAGE
+//! CONTACT PAGE
+
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { useRef } from 'react'
@@ -31,8 +32,6 @@ const Contact = () => {
             }
         )
     }
-
-
       return (
       <> 
         <div className="contact-page">

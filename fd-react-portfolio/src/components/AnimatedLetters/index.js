@@ -1,3 +1,5 @@
+//! ANIMATED LETTERS
+
 import './index.scss';
 import React from 'react';
 

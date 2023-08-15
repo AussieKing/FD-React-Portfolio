@@ -20,36 +20,75 @@ const socialsLink = [
   },
 ];
 
+// const Footer = () => {
+//   return (
+//     <footer className="footer bg-dark text-white">
+//       <div className="footer-container">
+//         <section className="social-icons-wrapper d-flex justify-content-center">
+//           {socialsLink.map(({ name, url, icon, color }) => (
+//             <div
+//               key={name}
+//               className="d-flex flex-column align-items-center mx-2 transparent-bg"
+//             >
+//               <a
+//                 href={url}
+//                 className={`icon ${name}`}
+//                 target="_blank"
+//                 rel="noreferrer"
+//               >
+//                 <FontAwesomeIcon
+//                   icon={icon}
+//                   bounce
+//                   className="footer-icon-size"
+//                   style={{ color: color }}
+//                 />
+//               </a>
+//               <a href={url} target="_blank" rel="noreferrer">
+//                 <span className="d-inline-block mx-1 name">{name}</span>
+//               </a>
+//             </div>
+//           ))}
+//         </section>
+//         <section className="form-footer">
+//           <h6 className="designer-text">Designed by Aussie King</h6>
+//           <p>
+//             <h6 className="copyright-text">
+//               &copy; {new Date().getFullYear()} All rights reserved.
+//             </h6>
+//           </p>
+//         </section>
+//       </div>
+//     </footer>
+//   );
+// };
+
+
+// Footer component
 const Footer = () => {
   return (
     <footer className="footer bg-dark text-white">
       <div className="footer-container">
-        <section className="social-icons-wrapper d-flex justify-content-center">
-          {socialsLink.map(({ name, url, icon, color }) => (
-            <div
-              key={name}
-              className="d-flex flex-column align-items-center mx-2 transparent-bg"
-            >
-              <a
-                href={url}
-                className={`icon ${name}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={icon}
-                  bounce
-                  className="footer-icon-size"
-                  style={{ color: color }}
-                />
-              </a>
-              <a href={url} target="_blank" rel="noreferrer">
-                <span className="d-inline-block mx-1 name">{name}</span>
-              </a>
-            </div>
-          ))}
-        </section>
         <section className="form-footer">
+          <div className="social-icons-container">
+            <div className="social-icons-wrapper">
+              {socialsLink.map(({ name, url, icon, color }) => (
+                <a
+                  key={name}
+                  href={url}
+                  className={`icon ${name}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={icon}
+                    bounce
+                    className="footer-icon-size"
+                    style={{ color: color }}
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
           <h6 className="designer-text">Designed by Aussie King</h6>
           <p>
             <h6 className="copyright-text">
@@ -61,5 +100,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+
 
 export default Footer;

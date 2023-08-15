@@ -1,12 +1,18 @@
+//! NAVIGATION
+
 .nav-bar {
   background: #262626;
   width: 60px;
-  height: 140%;
+  height: 100%; /* Adjust height as needed */
   position: fixed;
   left: 0;
+  top: 0; /* Position it at the top of the page */
   z-index: 3;
-  min-height: 700px;
   opacity: 0.9;
+  display: flex;
+  flex-direction: column; /* Make it a vertical column */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
 
 nav {
@@ -39,7 +45,7 @@ nav {
   &:hover {
     i {
       transform: scale(1.2);
-      color: orange;
+      color: chocolate;
       overflow: visible;
       svg {
         opacity: 0;
@@ -94,18 +100,6 @@ nav {
       }
     }
   }
-}
-
-ul {
-  bottom: 20px;
-  position: absolute;
-  width: 100%;
-  display: block;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  list-style: none;
-  font-size: x-large;
 }
 
 .hamburger-icon {

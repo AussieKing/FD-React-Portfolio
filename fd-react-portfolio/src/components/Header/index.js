@@ -17,7 +17,7 @@ function Header() {
               <FontAwesomeIcon
                 icon={faCode}
                 className="fa-code"
-                size="md"
+                size="lg"
                 style={{ color: "wheat" }}
               />
               <Link
@@ -30,7 +30,7 @@ function Header() {
               <FontAwesomeIcon
                 icon={faCode}
                 className="fa-code"
-                size="md"
+                size="lg"
                 style={{ color: "wheat" }}
               />
             </h1>
