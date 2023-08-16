@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/.github.io/rFD-React-Portfolio/static/css/main.fac7ed12.css",
+    "main.js": "/.github.io/rFD-React-Portfolio/static/js/main.22272336.js",
+    "static/js/787.97b18c89.chunk.js": "/.github.io/rFD-React-Portfolio/static/js/787.97b18c89.chunk.js",
+    "static/media/open-weather-app.png": "/.github.io/rFD-React-Portfolio/static/media/open-weather-app.e8710f575b2a13545c21.png",
+    "static/media/avatar.png": "/.github.io/rFD-React-Portfolio/static/media/avatar.c15b83eb3cce37101de9.png",
+    "static/media/Federico Dordoni CV resume 2023 Dev.pdf": "/.github.io/rFD-React-Portfolio/static/media/Federico Dordoni CV resume 2023 Dev.051e9acc42ddfc5a70a9.pdf",
+    "static/media/workanize.png": "/.github.io/rFD-React-Portfolio/static/media/workanize.69d6e9d5445da483c979.png",
+    "static/media/note-taker.png": "/.github.io/rFD-React-Portfolio/static/media/note-taker.91a2cf9c8a3e8194dc2d.png",
+    "static/media/helvetica-neu.ttf": "/.github.io/rFD-React-Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo.png": "/.github.io/rFD-React-Portfolio/static/media/logo.b6fef5c76acd538b7937.png",
+    "static/media/LaBelleAurore.woff": "/.github.io/rFD-React-Portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/.github.io/rFD-React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/.github.io/rFD-React-Portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/.github.io/rFD-React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/.github.io/rFD-React-Portfolio/index.html",
+    "main.fac7ed12.css.map": "/.github.io/rFD-React-Portfolio/static/css/main.fac7ed12.css.map",
+    "main.22272336.js.map": "/.github.io/rFD-React-Portfolio/static/js/main.22272336.js.map",
+    "787.97b18c89.chunk.js.map": "/.github.io/rFD-React-Portfolio/static/js/787.97b18c89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fac7ed12.css",
+    "static/js/main.22272336.js"
+  ]
+}
