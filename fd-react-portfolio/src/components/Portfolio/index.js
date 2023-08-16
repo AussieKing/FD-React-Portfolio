@@ -1,6 +1,6 @@
 //! PORTFOLIO
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -61,15 +61,16 @@ const Portfolio = () => {
     },
   ])
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
+  //! ERROR : Commenting out   
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 3000)
 
-    return () => {
-      clearTimeout(timer)
-    }
-  }, [])
+  //   return () => {
+  //     clearTimeout(timer)
+  //   }
+  // }, [])
 
   return (
     <>

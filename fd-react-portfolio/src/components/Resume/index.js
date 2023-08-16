@@ -4,17 +4,18 @@ import './index.scss'
 import PDF from '../../assets/images/Federico Dordoni CV resume 2023 Dev.pdf'
 import Navigation from '../Navigation'
 import AnimatedLetters from '../AnimatedLetters'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Loader from 'react-loaders'
 
 const Resume = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+  //! ERROR : Commenting out 
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLetterClass('text-animate-hover')
+  //   }, 3000)
+  // }, [])
 
   return (
     <div className="about-page">

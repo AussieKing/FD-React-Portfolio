@@ -1,6 +1,6 @@
 //! ABOUT
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Loader from 'react-loaders';
 import Navigation from '../Navigation';
 import AnimatedLetters from '../AnimatedLetters';
@@ -11,11 +11,12 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
-  useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, 3000);
-  }, []);
+  //! ERROR : Commenting out 
+  // useEffect(() => {
+  //   return setTimeout(() => {
+  //     setLetterClass('text-animate-hover');
+  //   }, 3000);
+  // }, []);
 
   return (
     <div className="about-page">

@@ -1,6 +1,6 @@
 //! CONTACT PAGE
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -13,11 +13,12 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')  // setting the initial state to be the class that animates the letters
     const form = useRef()
 
-    useEffect(() => {
-      return setTimeout(() => {
-        setLetterClass('text-animate-hover')
-      }, 3000)
-    }, [])
+    //! ERROR : Commenting out 
+    // useEffect(() => {
+    //   return setTimeout(() => {
+    //     setLetterClass('text-animate-hover')
+    //   }, 3000)
+    // }, [])
 
     const sendEmail = (e) => {
         e.preventDefault()

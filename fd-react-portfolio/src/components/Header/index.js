@@ -21,7 +21,7 @@ function Header() {
                 style={{ color: "wheat" }}
               />
               <Link
-                to="/fd-react-portfolio"
+                to="/about"
                 className="text-white text-decoration-none"
                 style={{ margin: "0" }}
               >

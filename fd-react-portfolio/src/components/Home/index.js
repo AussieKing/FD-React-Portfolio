@@ -1,6 +1,6 @@
 //! HOME
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom'
 import './index.scss';
@@ -16,11 +16,12 @@ const Home = () => {
     const jobArray = ['Full Stack Developer']
     const available = ['Available for hire']
     
-    useEffect(() => {  // use the useEffect hook to set the timeout
-        return setTimeout(() => {
-            setLetterClass('text-animate hover')  // set the state to the class name with the animation
-        }, 4000)
-    }, [])  // pass an empty array as the second argument to the useEffect hook, so that it only runs once
+    //! ERROR : Commenting out 
+    // useEffect(() => {  // use the useEffect hook to set the timeout
+    //     return setTimeout(() => {
+    //         setLetterClass('text-animate hover')  // set the state to the class name with the animation
+    //     }, 4000)
+    // }, [])  // pass an empty array as the second argument to the useEffect hook, so that it only runs once
 
     return (
         <>
