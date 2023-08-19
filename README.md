@@ -22,6 +22,7 @@ This deployed React application will serve as a landing page and portfolio to sh
 We were tasked to build a React application that would serve as a portfolio.
 It had to be made using React and any CSS library, an d be deployed on a live website.
 
+## Information
 ## Assigned User Story:
 ```
 AS AN employer looking for candidates with experience building single-page applications
@@ -57,34 +58,39 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) [x]
 ```
 
-## Visuals:
+## Visuals
 ### Walkthrough Video and Screenshots:
 Here you will be able to see a walkthrough video of the application and screenshots of the deployed application.
-[Walkthrough Video]()
 
+## Video
+### [Walkthrough Video](https://drive.google.com/file/d/1xWpYX6nFyHTx4XC-8spVG73lDQ5rGUNq/view)
+
+## Screenshots
 ### Homepage
+![Screenshot 2023-08-19 at 10 19 58 am](https://github.com/AussieKing/FD-React-Portfolio/assets/126050763/41d112d1-a888-4dd9-a5ab-d2a29d034ecf)
 
 ### About Me
+![Screenshot 2023-08-19 at 10 15 48 am](https://github.com/AussieKing/FD-React-Portfolio/assets/126050763/5f5f57ff-9c0a-4c36-95dc-d97c64eb41cf)
 
 ### Contact
-
-### Dashboard
+![Screenshot 2023-08-19 at 10 18 52 am](https://github.com/AussieKing/FD-React-Portfolio/assets/126050763/37813198-02db-4d27-92ba-b10718564132)
 
 ### Portfolio
+![Screenshot 2023-08-19 at 10 18 18 am](https://github.com/AussieKing/FD-React-Portfolio/assets/126050763/fd7a60a5-2a78-40ae-b9e7-43941c591f49)
+
 
 ### Resume
-
-
+![Screenshot 2023-08-19 at 10 19 24 am](https://github.com/AussieKing/FD-React-Portfolio/assets/126050763/a9bdc24a-b505-4baf-a842-ba0a6563895c)
 
 
 ## Instructions:
-
 
 ## Deployed Application Link:
 [Deployed Application](https://aussieking.github.io/about)
 
 ## GitHub Repository:
 [GitHub Repo](https://github.com/AussieKing/FD-React-Portfolio)
+
 
 ## Installation
 1. Clone the Repository from [GitHub](https://github.com/AussieKing/FD-React-Portfolio)
